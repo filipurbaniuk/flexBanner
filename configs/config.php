@@ -20,7 +20,7 @@
 
  		'connection' => [ // Data for connection
 
- 			'host' 	   => "164.132.145.6", // The IP address or hostname (ex. hostname: testonedwothree.com) or (ex. address: localhost / 127.0.0.1).
+ 			'host' 	   => "127.0.0.1", // The IP address or hostname (ex. hostname: testonedwothree.com) or (ex. address: localhost / 127.0.0.1).
  			'ports'    => ['voice' => 9987, 'query' => 10011], // The UDP (voice port) of TS3 server and TCP (query port) of Guest Server Query.
  			'nickname' => "urApps @ Banner" // If the app connects, then we can make it easier by changing the nickname that the application is enabled. (ex. nickname: urApps @ Banner)
 
