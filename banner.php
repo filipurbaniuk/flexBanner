@@ -21,7 +21,6 @@
  	date_default_timezone_set("Europe/Warsaw");
  	ini_set("default_charset", "UTF-8");
  	setlocale(LC_ALL, "UTF-8");
- 	error_reporting(E_ALL);
 
  	$image = imagecreatefrompng($config['banner']['bgPath']);
 
